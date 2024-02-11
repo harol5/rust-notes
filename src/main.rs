@@ -55,7 +55,14 @@ fn practicing_variables(){
     //the letter "u" means it can only hold positives numbers,
     //the letter "y" means it can hold negative number as well.
     //these rules apply to the other types of numbers (8,16,32,64,128);
-    let numero: u32 = 4000000000;
-    let otro: i32 = 2000000000;
-    println!("{} and {}",numero,otro);
+    let x: u32 = 4000000000;
+    let y: i32 = 2000000000;
+    println!("{} and {}",x,y);
+
+    //remenber type of varibale in order to make operation like this.
+    let mut z: i32 = 6;
+    z = y;
+
+    //casting variable.
+    let v: u16 = 38_u8 as u16;
 }
